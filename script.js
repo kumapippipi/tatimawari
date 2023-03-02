@@ -23,7 +23,7 @@ choices.forEach((choice) => {
                 img1.src = "./antiA.png";
                 explanation.appendChild(img1);
                 const p1 = document.createElement('p');
-                p1.textContent = '↑  地点Aの説明をここに記述します。';
+                p1.textContent = '↑  地点A：ブルータルとロンリー・ラボに少なくとも１パーティーずつ降りてるとするとこの安置では大体の人が安置に最短距離の直線で行き、安置に入ったところで接敵し戦闘になることが多い！';
                 explanation.appendChild(p1);
                 break;
 
@@ -34,7 +34,7 @@ choices.forEach((choice) => {
                 img2.src = "./antiB.png";
                 explanation.appendChild(img2);
                 const p2 = document.createElement('p');
-                p2.textContent = '↑  地点Bの説明をここに記述します。';
+                p2.textContent = '↑  地点B：フレンジーフィールド、フォールティースピリッツに少なくとも１パーティーずつ降りてるとするとこの安置では大体の人が安置に最短距離の直線で行き、安置に入ったところで接敵し戦闘になることが多い。';
                 explanation.appendChild(p2);
                 break; 
                 case 'choice-3':
@@ -44,7 +44,7 @@ choices.forEach((choice) => {
                 img3.src = "./antiC.png";
                 explanation.appendChild(img3);
                 const p3 = document.createElement('p');
-                p1.textContent = '↑  地点Cの説明をここに記述します。';
+                p1.textContent = '↑  地点C：フレンジーフィールド、シャッタードスラブスに少なくとも１パーティーずつ降りてるとするとこの安置では大体の人が安置に最短距離の直線で行き、安置に入ったところで接敵し戦闘になることが多い！';
                 explanation.appendChild(p1);
                 break;
                 
@@ -55,7 +55,7 @@ choices.forEach((choice) => {
                 img4.src = "./antiD.png";
                 explanation.appendChild(img4);
                 const p4 = document.createElement('p');
-                p4.textContent = '↑  地点Dの説明をここに記述します。';
+                p4.textContent = '↑  地点D：周辺に大きな町がブレイクウォーターベイの１つしかなく仮に２パーティーそこに降りていたとしても戦闘が起きてD地点に来るのは１パーティーとなる。また１パーティーが引いた時そのパーティーははＩ地点付近で安置に入ることが多い';
                 explanation.appendChild(p4);
                 break;
                 
@@ -66,7 +66,7 @@ choices.forEach((choice) => {
                 img5.src = "./antiE.png";
                 explanation.appendChild(img5);
                 const p5 = document.createElement('p');
-                p5.textContent = '↑  地点Eの説明をここに記述します。';
+                p5.textContent = '↑  地点E：シタデルが安置内に入っていることと、周辺に大きな町（ブレイクウォーターベイ）があることからシタデルのパーティーはとどまりブレイクウォーターベイのパーティーは安置内に入りＥ地点で接敵することが多い！';
                 explanation.appendChild(p5);
                 break;
                 
@@ -77,7 +77,7 @@ choices.forEach((choice) => {
                 img6.src = "./antiF.png";
                 explanation.appendChild(img6);
                 const p6 = document.createElement('p');
-                p6.textContent = '↑  地点Fの説明をここに記述します。';
+                p6.textContent = '↑  地点F：スラッピー・ショア、フォールティー・スピリッツに少なくとも１パーティーずつ降りてるとするとこの安置では大体の人が安置に最短距離の直線で行き、安置に入ったところで接敵し戦闘になることが多い！';
                 explanation.appendChild(p6);
                 break;
                 
@@ -88,7 +88,7 @@ choices.forEach((choice) => {
                 img7.src = "./antiG.png";
                 explanation.appendChild(img7);
                 const p7 = document.createElement('p');
-                p7.textContent = '↑  地点Gの説明をここに記述します。';
+                p7.textContent = '↑   地点G：ブルータル、スラッピー・ショアに少なくとも１パーティーずつ降りてるとするとこの安置では大体の人が安置に最短距離の直線で行き、安置に入ったところで接敵し戦闘になることが多い！';
                 explanation.appendChild(p7);
                 break;
                 
@@ -99,7 +99,7 @@ choices.forEach((choice) => {
                 img8.src = "./antiH.png";
                 explanation.appendChild(img8);
                 const p8 = document.createElement('p');
-                p8.textContent = '↑  地点Hの説明をここに記述します。';
+                p8.textContent = '↑   地点H：安置外に降りたパーティーは安置内に入ろうとするため安置の端に集まることが多いので円の中心は人が集まりにくい！しかし、終盤になると中心に人が少ないことからヘイトを買いやすいため気を付ける！';
                 explanation.appendChild(p8);
                 break;
                 
@@ -110,7 +110,7 @@ choices.forEach((choice) => {
                 img9.src = "./antiI.png";
                 explanation.appendChild(img9);
                 const p9 = document.createElement('p');
-                p9.textContent = '↑  地点Iの説明をここに記述します。';
+                p9.textContent = '↑  地点I：周辺に大きな町（ブレイクウォーターベイ）があるが大抵のパーティーは円に最短で入ろうとするためI地点には集まりにくい！';
                 explanation.appendChild(p9);
                 break;
             default:
