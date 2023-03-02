@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cs.css">
+    <title>Document</title>
+</head>
+<body>
+<p>
+    TweenMax.set('#set',{left: 100});<br />
+    TweenMax.to('#to', 0.5, {left: 100});<br />
+    TweenMax.from('#from', 0.5, {left: 100});<br />
+    TweenMax.fromTo('#fromTo', 0.5, {left: 200}, {left: 100});
+</p>
+<p class="note">
+    set：指定のプロパティの値を設定する（アニメーションはされない）<br />
+    to：指定のプロパティの値を、初期値から設定した値にアニメーションさせる<br />
+    from：指定のプロパティの値を、設定した値から初期値にアニメーションさせる<br />
+    fromTo：指定のプロパティの値の初期値を再設定し、設定した値から初期値にアニメーションさせる
+</p>
+
+<hr />
+
+<div id="set" class="obj">おはよ！</div>
+<div id="to" class="obj">今日は曇り！</div>
+<div id="from" class="obj">お菓子造りを仕様と思うよ！</div>
+<div id="fromTo" class="obj">レッツクック！</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="ja.js"></script>
+</body>
+</html>
