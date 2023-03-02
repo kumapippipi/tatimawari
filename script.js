@@ -44,7 +44,7 @@ choices.forEach((choice) => {
                 img3.src = "./antiC.png";
                 explanation.appendChild(img3);
                 const p3 = document.createElement('p');
-                p1.textContent = '↑  地点C：フレンジーフィールド、シャッタードスラブスに少なくとも１パーティーずつ降りてるとするとこの安置では大体の人が安置に最短距離の直線で行き、安置に入ったところで接敵し戦闘になることが多い！';
+                p3.textContent = '↑  地点C：フレンジーフィールド、シャッタードスラブスに少なくとも１パーティーずつ降りてるとするとこの安置では大体の人が安置に最短距離の直線で行き、安置に入ったところで接敵し戦闘になることが多い！';
                 explanation.appendChild(p1);
                 break;
                 
