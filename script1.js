@@ -58,12 +58,12 @@ choices.forEach((choice) => {
                 break;
             case 'choice-5':
                 choice.classList.add(correctClass);
-                result.textContent = '正解！理由は👇';
+                result.textContent = '不正解！理由は👇';
                 const img5 = document.createElement('img');
                 img5.src = './mappuE.png';
                 explanation.appendChild(img5);
                 const p5 = document.createElement('p');
-                p5.textContent = '↑  地点E:周辺にはフレンジーフィールドだけしか大きな町はなくほかの大きな町から移動してくるということは考えずらい';
+                p5.textContent = '↑  地点E:周辺にはフレンジーフィールドから安置に最短で入ろうとするとF地点に敵が集まる';
                 explanation.appendChild(p5);
                 break;
             case 'choice-6':
@@ -98,12 +98,12 @@ choices.forEach((choice) => {
                 break;
             case 'choice-9':
                 choice.classList.add(correctClass);
-                result.textContent = '正解！理由は👇';
+                result.textContent = '不正解！理由は👇';
                 const img9 = document.createElement('img');
                 img9.src = './mappuI.png';
                 explanation.appendChild(img9);
                 const p9 = document.createElement('p');
-                p9.textContent = '↑  地点I:シャッタードスラブスから安置に最短距離で入ろうとするとI地点になるがシャッタードより上の大きな町から入ってくるパーティーはF地点に集まるのでIは安全!';
+                p9.textContent = '↑  地点I:シャッタードスラブスから安置に最短距離で入ろうとするとI地点になるがシャッタードより上の大きな町から入ってくるパーティーはF地点に集まるのでIは危険!';
                 explanation.appendChild(p9);
                 break;
             default:
